@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.9.13, a.mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='css_js_image/logo.jpg')}}" type="image/x-icon">
+  <meta name="description" content="Transformez votre véhicule thermique en véhicule électrique dès aujourd'hui. Découvrez nos solutions de conversion et contribuez à un avenir plus durable.">
+  <title>Conversion Véhicule Électrique</title>
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css_js_image/test.css') }}">  -->
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/web/assets/mobirise-icons/mobirise-icons.css?rnd=1715026806412">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1715026806412">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/bootstrap/css/bootstrap.min.css?rnd=1715026806412">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1715026806412">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1715026806412">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/parallax/jarallax.css?rnd=1715026806412">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/dropdown/css/style.css?rnd=1715026806412">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/theme/css/style.css?rnd=1715026806412">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/415021/assets/css/mbr-additional.css?rnd=1715026806412" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <style>
+	.container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* max-width: 700px; */
+	top: 30%;
+	left: 7%;
+	position: absolute;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+  </style>
+  
+  
+</head>
+<body style="background-color: #009688;">
+  
+    <section data-bs-version="5.1" class="menu menu2 cid-ubojUtY42o" once="menu" id="menu-5-ubojUtY42o">
+	
+
+        <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">
+                        <a href="#">
+                            <img src="{{ url_for('static', filename='css_js_image/logo.jpg')}}" alt="Mobirise Website Builder" style="height: 4.3rem;">
+                        </a>
+                    </span>
+                    
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"> <li class="nav-item"><a class="nav-link link text-black display-4" href="{{ url_for('index') }}"><span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Acceuil</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link text-black dropdown-toggle show display-4" href="{{ url_for('display') }}" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true"><span class="mbri-database mbr-iconfont mbr-iconfont-btn" style="color: rgb(46, 72, 26);"></span>Tableau</a><div class="dropdown-menu show" aria-labelledby="dropdown-310" data-bs-popper="none"><a class="text-black dropdown-item display-4" href="{{ url_for('acceuil') }}">Tableau de bord</a><a class="text-black dropdown-item display-4" href="{{ url_for('display') }}">Tableaux</a><a class="text-black dropdown-item display-4" href="{{ url_for('scenario') }}">Scenario</a><a class="text-black dropdown-item display-4" href="{{ url_for('optimisation') }}">Optimisation</a></div>
+                        </li><li class="nav-item">
+                            <a class="nav-link link text-black display-4" href="/graph" aria-expanded="false"><span class="mbri-growing-chart mbr-iconfont mbr-iconfont-btn"></span>Graphique</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link text-black dropdown-toggle show display-4" href="{{ url_for('importer') }}" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true"><span class="mbri-upload mbr-iconfont mbr-iconfont-btn" style="color: rgb(46, 72, 26);"></span>Importer</a><div class="dropdown-menu show" aria-labelledby="dropdown-310" data-bs-popper="none"><a class="text-black dropdown-item display-4" href="{{ url_for('importer') }}">Importer</a><a class="text-black dropdown-item display-4" href="{{ url_for('comparateur') }}">Comparateur</a></div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link text-black dropdown-toggle show display-4" href="{{ url_for('display') }}" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true"><span class="mbri-setting mbr-iconfont mbr-iconfont-btn" style="color: rgb(46, 72, 26);"></span>Outils</a><div class="dropdown-menu show" aria-labelledby="dropdown-310" data-bs-popper="none"><a class="text-black dropdown-item display-4" href="{{ url_for('rapport') }}">Optimisation</a><a class="text-black dropdown-item display-4" href="https://abdou.shinyapps.io/CalCharge/">ODC</a><a class="text-black dropdown-item display-4" href="https://abdou.shinyapps.io/needborne/">Bornes</a><a class="text-black dropdown-item display-4" href="{{ url_for('gradio_interface') }}">Rapports</a></div>
+                        </li>
+                    </ul>
+                    <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="#"><span class="mbri-login mbr-iconfont mbr-iconfont-btn"></span>Login</a></div>
+                </div>
+            </div>
+        </nav>
+    </section>
+		
+    <div class="container">
+        <h1 style="margin: 0; font-size: 18px;">Importer les Données a analyser</h1>
+        <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="vehicle_data">Importer les Données de la flotte:</label>
+                <input type="file" id="vehicle_data" name="vehicle_data">
+            </div>
+            <div class="form-group">
+                <label for="charging_station_data">Importer les Données des bornes</label>
+                <input type="file" id="charging_station_data" name="charging_station_data">
+            </div>
+            <div class="form-group">
+                <label for="electric_vehicle_data">Importer les Données sur les vehicules electriques</label>
+                <input type="file" id="electric_vehicle_data" name="electric_vehicle_data">
+            </div>
+			
+            <button type="submit"><span class="material-icons">upload_file</span>Upload</button>
+        </form>
+    </div>
+	
+
+
+
+
+	<script src="{{ url_for('static', filename='css_js_image/jquery.min.js')}}"></script>
+	<script src="{{ url_for('static', filename='css_js_image/bootstrap.bundle.min.js')}}"></script>
+	<script src="{{ url_for('static', filename='css_js_image/smooth-scroll.js')}}"></script>
+	<script src="{{ url_for('static', filename='css_js_image/index2.js')}}"></script>
+	<script src="{{ url_for('static', filename='css_js_image/navbar-dropdown.js')}}"></script>
+	<script src="{{ url_for('static', filename='css_js_image/player.js')}}"></script>
+	<script src="{{ url_for('static', filename='css_js_image/script.js')}}"></script>
+  
+  
+  
+</body>
+</html>
