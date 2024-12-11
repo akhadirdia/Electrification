@@ -16,7 +16,7 @@ import openai
 import gradio as gr
 
 # Étape 1 : Conception du modèle de base de données
-client = openai.OpenAI(api_key='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')
+client = openai.OpenAI(api_key='')
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
