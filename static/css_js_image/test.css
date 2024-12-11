@@ -1,0 +1,23 @@
+
+
+.stats-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.number {
+    font-size: 72px; /* Taille de la police pour les numéros */
+    font-weight: bold; /* Rendre le numéro en gras */
+    display: block; /* Pour que le label soit en dessous du numéro */
+}
+
+.label {
+    font-size: 24px; /* Taille de la police pour les étiquettes */
+    text-transform: uppercase; /* Les étiquettes en majuscules */
+}
