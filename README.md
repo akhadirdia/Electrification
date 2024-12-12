@@ -7,3 +7,6 @@ Data Import: Users can upload a spreadsheet containing details about their curre
 Instant Analysis: Within seconds, the platform generates accurate and comprehensive results.
 
 Advanced Analysis: Leveraging artificial intelligence, the platform delivers in-depth and contextualized data analysis.
+
+![image](https://github.com/user-attachments/assets/7886f9a6-c56a-4462-90a7-c5a8578bf84d)
+
